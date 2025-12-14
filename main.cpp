@@ -73,4 +73,3 @@ int main() {
     std::cout << "\nThe program is completed <3" << std::endl;
     return 0;
 }
-}
