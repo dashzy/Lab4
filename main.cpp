@@ -19,22 +19,15 @@ std::vector<std::string> readFromFile(const std::string& filename) {
 
     inputFile.close();
 
-    // ¬ременный вывод дл€ отладки - ”ƒјЋ»“№ ѕ≈–≈ƒ —Ћ»яЌ»≈ћ!
-    std::cout << "DEBUGGING THE READING FUNCTION" << std::endl;
-    std::cout << "_____________________________________" << std::endl;
-    std::cout << "Lines read: " << lines.size() << std::endl;
-    for (size_t i = 0; i < lines.size(); ++i) {
-        std::cout << "[" << i + 1 << "] " << lines[i] << std::endl;
-    }
-    std::cout << "_____________________________________" << std::endl;
-
     return lines;
 }
 
 void printToScreen(const std::vector<std::string>& lines) {
+
 }
 
 void writeToFile(const std::vector<std::string>& lines, const std::string& filename) {
+
 }
 
 int main() {
