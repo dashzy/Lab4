@@ -19,7 +19,8 @@ std::vector<std::string> readFromFile(const std::string& filename) {
 
     inputFile.close();
 
-    // Âğåìåííûé âûâîä äëÿ îòëàäêè - ÓÄÀËÈÒÜ ÏÅĞÅÄ ÑËÈßÍÈÅÌ!
+feature-print-write
+    // Ã‚Ã°Ã¥Ã¬Ã¥Ã­Ã­Ã»Ã© Ã¢Ã»Ã¢Ã®Ã¤ Ã¤Ã«Ã¿ Ã®Ã²Ã«Ã Ã¤ÃªÃ¨ - Ã“Ã„Ã€Ã‹ÃˆÃ’Ãœ ÃÃ…ÃÃ…Ã„ Ã‘Ã‹ÃˆÃŸÃÃˆÃ…ÃŒ!
     std::cout << "DEBUGGING THE READING FUNCTION" << std::endl;
     std::cout << "_____________________________________" << std::endl;
     std::cout << "Lines read: " << lines.size() << std::endl;
@@ -31,7 +32,7 @@ std::vector<std::string> readFromFile(const std::string& filename) {
     return lines;
 }
 
-// ôóíêöèÿ 2, àíÿ
+// Ã´Ã³Ã­ÃªÃ¶Ã¨Ã¿ 2, Ã Ã­Ã¿
 void printToScreen(const std::vector<std::string>& lines) {
     std::cout << "\n=== SCREEN OUTPUT ===" << std::endl;
     if (lines.empty()) {
@@ -44,7 +45,7 @@ void printToScreen(const std::vector<std::string>& lines) {
     std::cout << "=====================\n" << std::endl;
 }
 
-// ôóíêöèÿ 3, àíÿ
+// Ã´Ã³Ã­ÃªÃ¶Ã¨Ã¿ 3, Ã Ã­Ã¿
 void writeToFile(const std::vector<std::string>& lines, const std::string& filename) {
     std::ofstream outputFile(filename);
 
@@ -62,14 +63,36 @@ void writeToFile(const std::vector<std::string>& lines, const std::string& filen
 }
 
 int main() {
+    return lines;
+}
+
+void printToScreen(const std::vector<std::string>& lines) {
+
+}
+
+void writeToFile(const std::vector<std::string>& lines, const std::string& filename) {
+
+}
+
+int main() {
+
+main
     std::cout << "A program for working with text files" << std::endl;
     std::cout << "_____________________________________" << std::endl;
 
     std::vector<std::string> data = readFromFile("input.txt");
+feature-print-write
 
     printToScreen(data);
     writeToFile(data, "output.txt");
 
     std::cout << "\nThe program is completed <3" << std::endl;
+
+//Ã Ã­Ã¿
+    printToScreen(data);
+    writeToFile(data, "output.txt");
+
+    std::cout << "The program is completed <3" << std::endl;
+main
     return 0;
 }
