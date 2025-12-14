@@ -15,11 +15,10 @@ void writeToFile(const std::vector<std::string>& lines, const std::string& filen
 }
 
 int main() {
-    std::cout << "Программа для работы с текстовыми файлами" << std::endl;
+    std::cout << "A program for working with text files" << std::endl;
 
     std::vector<std::string> data = readFromFile("input.txt");
     printToScreen(data);
     writeToFile(data, "output.txt");
-
     return 0;
 }
