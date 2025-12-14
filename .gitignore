@@ -1,0 +1,15 @@
+*.cbp
+*.layout
+*.depend
+*.exe
+*.workspace
+*.o
+*.obj
+*.dll
+bin/
+obj/
+*.swp
+*~
+.DS_Store
+input.txt
+output.txt
